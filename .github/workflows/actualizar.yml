@@ -1,8 +1,8 @@
 name: Actualizar Precios
 on:
   schedule:
-    - cron: '0 6 * * *'  # 08:00 hora local
-    - cron: '0 14 * * *' # 16:00 hora local
+    - cron: '30 6 * * *'  # 08:30 hora local (Primer intento)
+    - cron: '30 7 * * *'  # 09:30 hora local (Segundo intento de seguridad)
   workflow_dispatch:
 
 jobs:
