@@ -52,13 +52,11 @@ function calcularDistancia(lat1, lon1, lat2, lon2) {
 }
 
 async function procesar() {
-    console.log("Descargando y cruzando todos los carburantes del MIMIT...");
+    console.log("Descargando y filtrando mejores precios 'Self'...");
     const impianti = await descargarCSV(URL_IMPIANTI);
     const precios = await descargarCSV(URL_PRECIOS);
 
-    console.log(`Datos cargados -> Instalaciones: ${impianti.length}, Precios: ${precios.length}`);
-
-    // Filtramos por tu ruta configurada
+    // Filtramos instalaciones por tu ruta configurada
     let filtradas = impianti.filter(imp => {
         if (!imp.Latitudine || !imp.Longitudine) return false;
         
@@ -67,24 +65,36 @@ async function procesar() {
         );
     });
 
-    // MODO SEGURIDAD: Si el filtro de ruta da 0, agarramos una muestra de Bologna/Milano 
-    // para asegurar que el archivo no se quede vacío mientras revisamos las coordenadas.
+    // MODO SEGURIDAD: Muestra temporal si la ruta da 0
     if (filtradas.length === 0) {
         console.log("Aviso: Tu ruta no cruzó con ninguna gasolinera. Guardando muestra de seguridad...");
         filtradas = impianti.filter(imp => imp.Latitudine && imp.Longitudine).slice(0, 50);
     }
 
-    // Cruzamos las gasolineras trayendo TODOS sus precios y combustibles disponibles
     const resultadoFinal = filtradas.map(imp => {
-        // Buscamos todas las filas de precios que coincidan con esta gasolinera
-        const listaPrecios = precios.filter(p => p.idImpianto === imp.idImpianto);
+        // 1. Buscamos los precios de esta estación y nos quedamos SOLO con los "isSelf === 1"
+        const listaPreciosSelf = precios.filter(p => p.idImpianto === imp.idImpianto && p.isSelf === "1");
         
-        // Creamos la lista con cada combustible que ofrece
-        const carburantes = listaPrecios.map(p => ({
-            combustible: p.descCarburante,
-            precio: p.prezzo,
-            isSelf: p.isSelf === "1" ? "Self" : "Servito"
-        }));
+        // 2. Agrupamos por tipo de combustible para elegir siempre el más barato si está repetido
+        const mapaCombustibles = {};
+        
+        listaPreciosSelf.forEach(p => {
+            const nombreCombustible = p.descCarburante;
+            const precioActual = parseFloat(p.prezzo);
+            
+            if (!isNaN(precioActual)) {
+                // Si no existe este combustible todavía, o si el precio nuevo es más bajo que el que teníamos, lo guardamos
+                if (!mapaCombustibles[nombreCombustible] || precioActual < mapaCombustibles[nombreCombustible].precio) {
+                    mapaCombustibles[nombreCombustible] = {
+                        combustible: nombreCombustible,
+                        precio: p.prezzo // Guardamos el texto original ("1.968")
+                    };
+                }
+            }
+        });
+
+        // Convertimos el mapa limpio otra vez a una lista (Array)
+        const carburantesLimpios = Object.values(mapaCombustibles);
 
         return {
             idImpianto: imp.idImpianto,
@@ -94,12 +104,12 @@ async function procesar() {
             comune: imp.Comune,
             latitud: imp.Latitudine,
             longitud: imp.Longitudine,
-            precios: carburantes // Ahora es un array con todos los combustibles
+            precios: carburantesLimpios // Solo contiene elementos Self únicos con el precio más bajo
         };
     });
 
     fs.writeFileSync('gasolineras.json', JSON.stringify(resultadoFinal, null, 2));
-    console.log(`¡Proceso completado! Archivo 'gasolineras.json' guardado con ${resultadoFinal.length} registros.`);
+    console.log(`¡Proceso completado! Guardadas ${resultadoFinal.length} gasolineras optimizadas en modo Self.`);
 }
 
 procesar();
