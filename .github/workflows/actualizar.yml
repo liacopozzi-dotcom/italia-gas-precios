@@ -1,0 +1,29 @@
+name: Actualizar Precios
+on:
+  schedule:
+    - cron: '0 6 * * *'  # 08:00 hora local
+    - cron: '0 14 * * *' # 16:00 hora local
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v3
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Ejecutar script de cruce
+        run: node cruce.js
+
+      - name: Subir cambios
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add gasolineras.json
+          git commit -m "Actualización automática de precios"
+          git push
