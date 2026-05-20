@@ -1,8 +1,5 @@
 const fs = require('fs');
 const https = require('https');
-// Nota: como usas 'export' en autopistasItalia, si da error de importación, 
-// a veces en Node.js es mejor usar 'module.exports'. 
-// Si da error, avísame y lo ajustamos.
 const { AUTOPISTAS_ITALIA, CONFIGURACION_RUTA } = require('./autopistasItalia.js');
 
 const URL_CSV = 'https://carburanti.mise.gov.it/ospzApi/prezzi/csv';
@@ -14,13 +11,16 @@ function descargarYConvertir(url) {
             res.on('data', (chunk) => { data += chunk; });
             res.on('end', () => {
                 const lineas = data.split('\n');
-                const cabeceras = lineas[0].split(';');
+                // El archivo usa | como separador
+                const cabeceras = lineas[0].split('|').map(h => h.trim());
+                
                 const resultado = lineas.slice(1).map(linea => {
-                    const valores = linea.split(';');
+                    const valores = linea.split('|');
                     let obj = {};
-                    cabeceras.forEach((h, i) => obj[h.trim()] = valores[i]);
+                    cabeceras.forEach((h, i) => obj[h] = valores[i]);
                     return obj;
                 }).filter(o => o.Latitudine && o.Longitudine);
+                
                 resolve(resultado);
             });
         }).on('error', reject);
@@ -40,10 +40,15 @@ async function procesar() {
     const todas = await descargarYConvertir(URL_CSV);
     
     const filtradas = todas.filter(gas => {
-        const gLat = parseFloat(gas.Latitudine.replace(',', '.'));
-        const gLon = parseFloat(gas.Longitudine.replace(',', '.'));
+        // Aseguramos que los valores sean texto antes de reemplazar
+        const latStr = gas.Latitudine || "";
+        const lonStr = gas.Longitudine || "";
         
-        // Comprobar si está en el radio definido en tu CONFIGURACION_RUTA
+        const gLat = parseFloat(latStr.replace(',', '.'));
+        const gLon = parseFloat(lonStr.replace(',', '.'));
+        
+        if (isNaN(gLat) || isNaN(gLon)) return false;
+        
         return CONFIGURACION_RUTA.rutaPuntos.some(punto => 
             calcularDistancia(gLat, gLon, punto.lat, punto.lon) <= CONFIGURACION_RUTA.radioKM
         );
