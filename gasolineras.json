@@ -10,18 +10,15 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "1.948",
-        "isSelf": "Self"
+        "precio": "1.948"
       },
       {
         "combustible": "Gasolio",
-        "precio": "1.934",
-        "isSelf": "Self"
+        "precio": "1.934"
       },
       {
         "combustible": "Blue Diesel",
-        "precio": "2.034",
-        "isSelf": "Self"
+        "precio": "2.034"
       }
     ]
   },
@@ -36,53 +33,23 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "2.188",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Benzina",
-        "precio": "1.968",
-        "isSelf": "Self"
+        "precio": "1.968"
       },
       {
         "combustible": "Gasolio",
-        "precio": "2.209",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Gasolio",
-        "precio": "1.989",
-        "isSelf": "Self"
+        "precio": "1.989"
       },
       {
         "combustible": "Blue Super",
-        "precio": "2.338",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Blue Super",
-        "precio": "2.118",
-        "isSelf": "Self"
+        "precio": "2.118"
       },
       {
         "combustible": "Blue Diesel",
-        "precio": "2.309",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Blue Diesel",
-        "precio": "2.089",
-        "isSelf": "Self"
+        "precio": "2.089"
       },
       {
         "combustible": "HVOlution",
-        "precio": "2.209",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "HVOlution",
-        "precio": "1.989",
-        "isSelf": "Self"
+        "precio": "1.989"
       }
     ]
   },
@@ -97,23 +64,11 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "1.929",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Benzina",
-        "precio": "1.929",
-        "isSelf": "Self"
+        "precio": "1.929"
       },
       {
         "combustible": "Gasolio",
-        "precio": "1.959",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Gasolio",
-        "precio": "1.959",
-        "isSelf": "Self"
+        "precio": "1.959"
       }
     ]
   },
@@ -128,33 +83,15 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "2.329",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Benzina",
-        "precio": "1.949",
-        "isSelf": "Self"
+        "precio": "1.949"
       },
       {
         "combustible": "Gasolio",
-        "precio": "2.339",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Gasolio",
-        "precio": "1.959",
-        "isSelf": "Self"
+        "precio": "1.959"
       },
       {
         "combustible": "Hi-Q Diesel",
-        "precio": "2.709",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Hi-Q Diesel",
-        "precio": "2.379",
-        "isSelf": "Self"
+        "precio": "2.379"
       }
     ]
   },
@@ -169,13 +106,11 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "1.969",
-        "isSelf": "Self"
+        "precio": "1.969"
       },
       {
         "combustible": "Gasolio",
-        "precio": "1.989",
-        "isSelf": "Self"
+        "precio": "1.989"
       }
     ]
   },
@@ -190,13 +125,11 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "1.959",
-        "isSelf": "Self"
+        "precio": "1.959"
       },
       {
         "combustible": "Gasolio",
-        "precio": "1.969",
-        "isSelf": "Self"
+        "precio": "1.969"
       }
     ]
   },
@@ -211,13 +144,11 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "1.959",
-        "isSelf": "Self"
+        "precio": "1.959"
       },
       {
         "combustible": "Gasolio",
-        "precio": "1.969",
-        "isSelf": "Self"
+        "precio": "1.969"
       }
     ]
   },
@@ -232,13 +163,11 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "2.019",
-        "isSelf": "Self"
+        "precio": "2.019"
       },
       {
         "combustible": "Gasolio",
-        "precio": "2.039",
-        "isSelf": "Self"
+        "precio": "2.039"
       }
     ]
   },
@@ -253,23 +182,19 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "1.970",
-        "isSelf": "Self"
+        "precio": "1.970"
       },
       {
         "combustible": "Gasolio",
-        "precio": "1.954",
-        "isSelf": "Self"
+        "precio": "1.954"
       },
       {
         "combustible": "Blue Super",
-        "precio": "2.024",
-        "isSelf": "Self"
+        "precio": "2.024"
       },
       {
         "combustible": "Blue Diesel",
-        "precio": "2.054",
-        "isSelf": "Self"
+        "precio": "2.054"
       }
     ]
   },
@@ -284,43 +209,19 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "2.189",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Benzina",
-        "precio": "1.950",
-        "isSelf": "Self"
+        "precio": "1.950"
       },
       {
         "combustible": "Gasolio",
-        "precio": "2.209",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Gasolio",
-        "precio": "1.989",
-        "isSelf": "Self"
+        "precio": "1.989"
       },
       {
         "combustible": "Blue Diesel",
-        "precio": "2.309",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Blue Diesel",
-        "precio": "2.089",
-        "isSelf": "Self"
+        "precio": "2.089"
       },
       {
         "combustible": "HVOlution",
-        "precio": "2.209",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "HVOlution",
-        "precio": "1.989",
-        "isSelf": "Self"
+        "precio": "1.989"
       }
     ]
   },
@@ -335,38 +236,19 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "2.169",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Benzina",
-        "precio": "1.949",
-        "isSelf": "Self"
+        "precio": "1.949"
       },
       {
         "combustible": "Gasolio",
-        "precio": "2.189",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Gasolio",
-        "precio": "1.969",
-        "isSelf": "Self"
+        "precio": "1.969"
       },
       {
         "combustible": "Blue Diesel",
-        "precio": "2.289",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Blue Diesel",
-        "precio": "2.069",
-        "isSelf": "Self"
+        "precio": "2.069"
       },
       {
         "combustible": "HVOlution",
-        "precio": "1.969",
-        "isSelf": "Self"
+        "precio": "1.969"
       }
     ]
   },
@@ -381,13 +263,11 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "1.929",
-        "isSelf": "Self"
+        "precio": "1.929"
       },
       {
         "combustible": "Gasolio",
-        "precio": "1.949",
-        "isSelf": "Self"
+        "precio": "1.949"
       }
     ]
   },
@@ -409,18 +289,7 @@
     "comune": "BOLOGNA",
     "latitud": "44.487150216540314",
     "longitud": "11.357698142528534",
-    "precios": [
-      {
-        "combustible": "Benzina",
-        "precio": "1.999",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Gasolio",
-        "precio": "1.989",
-        "isSelf": "Servito"
-      }
-    ]
+    "precios": []
   },
   {
     "idImpianto": "42261",
@@ -443,43 +312,19 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "2.279",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Benzina",
-        "precio": "1.999",
-        "isSelf": "Self"
+        "precio": "1.999"
       },
       {
         "combustible": "Gasolio",
-        "precio": "2.309",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Gasolio",
-        "precio": "2.029",
-        "isSelf": "Self"
+        "precio": "2.029"
       },
       {
         "combustible": "Hi-Q Diesel",
-        "precio": "2.589",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Hi-Q Diesel",
-        "precio": "2.359",
-        "isSelf": "Self"
+        "precio": "2.359"
       },
       {
         "combustible": "HiQ Perform+",
-        "precio": "2.499",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "HiQ Perform+",
-        "precio": "2.249",
-        "isSelf": "Self"
+        "precio": "2.249"
       }
     ]
   },
@@ -514,23 +359,11 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "2.199",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Benzina",
-        "precio": "1.999",
-        "isSelf": "Self"
+        "precio": "1.999"
       },
       {
         "combustible": "Gasolio",
-        "precio": "2.229",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Gasolio",
-        "precio": "2.029",
-        "isSelf": "Self"
+        "precio": "2.029"
       }
     ]
   },
@@ -555,28 +388,11 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "2.149",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Benzina",
-        "precio": "1.959",
-        "isSelf": "Self"
+        "precio": "1.959"
       },
       {
         "combustible": "Gasolio",
-        "precio": "2.189",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Gasolio",
-        "precio": "1.999",
-        "isSelf": "Self"
-      },
-      {
-        "combustible": "GPL",
-        "precio": "0.819",
-        "isSelf": "Servito"
+        "precio": "1.999"
       }
     ]
   },
@@ -591,18 +407,15 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "1.879",
-        "isSelf": "Self"
+        "precio": "1.879"
       },
       {
         "combustible": "Gasolio",
-        "precio": "1.979",
-        "isSelf": "Self"
+        "precio": "1.979"
       },
       {
         "combustible": "HiQ Perform+",
-        "precio": "2.179",
-        "isSelf": "Self"
+        "precio": "2.179"
       }
     ]
   },
@@ -637,13 +450,11 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "1.979",
-        "isSelf": "Self"
+        "precio": "1.979"
       },
       {
         "combustible": "Gasolio",
-        "precio": "1.999",
-        "isSelf": "Self"
+        "precio": "1.999"
       }
     ]
   },
@@ -658,28 +469,11 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "1.919",
-        "isSelf": "Self"
+        "precio": "1.919"
       },
       {
         "combustible": "Gasolio",
-        "precio": "1.939",
-        "isSelf": "Self"
-      },
-      {
-        "combustible": "GPL",
-        "precio": "0.789",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "L-GNC",
-        "precio": "1.499",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "GNL",
-        "precio": "1.459",
-        "isSelf": "Servito"
+        "precio": "1.939"
       }
     ]
   },
@@ -694,18 +488,11 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "1.969",
-        "isSelf": "Self"
+        "precio": "1.969"
       },
       {
         "combustible": "Gasolio",
-        "precio": "1.959",
-        "isSelf": "Self"
-      },
-      {
-        "combustible": "GPL",
-        "precio": "0.799",
-        "isSelf": "Servito"
+        "precio": "1.959"
       }
     ]
   },
@@ -720,53 +507,23 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "2.170",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Benzina",
-        "precio": "1.950",
-        "isSelf": "Self"
+        "precio": "1.950"
       },
       {
         "combustible": "Gasolio",
-        "precio": "2.189",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Gasolio",
-        "precio": "1.969",
-        "isSelf": "Self"
+        "precio": "1.969"
       },
       {
         "combustible": "Blue Super",
-        "precio": "2.320",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Blue Super",
-        "precio": "2.100",
-        "isSelf": "Self"
+        "precio": "2.100"
       },
       {
         "combustible": "Blue Diesel",
-        "precio": "2.289",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Blue Diesel",
-        "precio": "2.069",
-        "isSelf": "Self"
+        "precio": "2.069"
       },
       {
         "combustible": "HVOlution",
-        "precio": "2.189",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "HVOlution",
-        "precio": "1.969",
-        "isSelf": "Self"
+        "precio": "1.969"
       }
     ]
   },
@@ -781,23 +538,11 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "2.069",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Benzina",
-        "precio": "2.069",
-        "isSelf": "Self"
+        "precio": "2.069"
       },
       {
         "combustible": "HVO",
-        "precio": "2.169",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "HVO",
-        "precio": "2.169",
-        "isSelf": "Self"
+        "precio": "2.169"
       }
     ]
   },
@@ -812,23 +557,11 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "2.240",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Benzina",
-        "precio": "2.240",
-        "isSelf": "Self"
+        "precio": "2.240"
       },
       {
         "combustible": "Gasolio",
-        "precio": "2.366",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Gasolio",
-        "precio": "2.366",
-        "isSelf": "Self"
+        "precio": "2.366"
       }
     ]
   },
@@ -843,23 +576,11 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "2.280",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Benzina",
-        "precio": "2.280",
-        "isSelf": "Self"
+        "precio": "2.280"
       },
       {
         "combustible": "Gasolio",
-        "precio": "2.396",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Gasolio",
-        "precio": "2.396",
-        "isSelf": "Self"
+        "precio": "2.396"
       }
     ]
   },
@@ -874,23 +595,11 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "2.099",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Benzina",
-        "precio": "2.099",
-        "isSelf": "Self"
+        "precio": "2.099"
       },
       {
         "combustible": "Gasolio",
-        "precio": "2.299",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Gasolio",
-        "precio": "2.299",
-        "isSelf": "Self"
+        "precio": "2.299"
       }
     ]
   },
@@ -905,23 +614,11 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "1.999",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Benzina",
-        "precio": "1.999",
-        "isSelf": "Self"
+        "precio": "1.999"
       },
       {
         "combustible": "Gasolio",
-        "precio": "2.019",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Gasolio",
-        "precio": "2.019",
-        "isSelf": "Self"
+        "precio": "2.019"
       }
     ]
   },
@@ -936,23 +633,11 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "1.989",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Benzina",
-        "precio": "1.989",
-        "isSelf": "Self"
+        "precio": "1.989"
       },
       {
         "combustible": "Gasolio",
-        "precio": "2.019",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Gasolio",
-        "precio": "2.019",
-        "isSelf": "Self"
+        "precio": "2.019"
       }
     ]
   },
@@ -967,13 +652,11 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "1.969",
-        "isSelf": "Self"
+        "precio": "1.969"
       },
       {
         "combustible": "Gasolio",
-        "precio": "1.999",
-        "isSelf": "Self"
+        "precio": "1.999"
       }
     ]
   },
@@ -985,18 +668,7 @@
     "comune": "MILANO",
     "latitud": "45.44920754498186",
     "longitud": "9.18585579198226",
-    "precios": [
-      {
-        "combustible": "Benzina",
-        "precio": "1.959",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Gasolio",
-        "precio": "1.999",
-        "isSelf": "Servito"
-      }
-    ]
+    "precios": []
   },
   {
     "idImpianto": "61864",
@@ -1009,23 +681,11 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "1.999",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Benzina",
-        "precio": "1.999",
-        "isSelf": "Self"
+        "precio": "1.999"
       },
       {
         "combustible": "Gasolio",
-        "precio": "2.099",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Gasolio",
-        "precio": "2.099",
-        "isSelf": "Self"
+        "precio": "2.099"
       }
     ]
   },
@@ -1040,13 +700,11 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "2.299",
-        "isSelf": "Self"
+        "precio": "2.299"
       },
       {
         "combustible": "Gasolio",
-        "precio": "2.399",
-        "isSelf": "Self"
+        "precio": "2.399"
       }
     ]
   },
@@ -1061,13 +719,11 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "1.959",
-        "isSelf": "Self"
+        "precio": "1.959"
       },
       {
         "combustible": "Gasolio",
-        "precio": "1.999",
-        "isSelf": "Self"
+        "precio": "1.999"
       }
     ]
   },
@@ -1082,23 +738,11 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "1.989",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Benzina",
-        "precio": "1.989",
-        "isSelf": "Self"
+        "precio": "1.989"
       },
       {
         "combustible": "Gasolio",
-        "precio": "2.029",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Gasolio",
-        "precio": "2.029",
-        "isSelf": "Self"
+        "precio": "2.029"
       }
     ]
   },
@@ -1113,23 +757,11 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "2.229",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Benzina",
-        "precio": "1.979",
-        "isSelf": "Self"
+        "precio": "1.979"
       },
       {
         "combustible": "Gasolio",
-        "precio": "2.269",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Gasolio",
-        "precio": "2.019",
-        "isSelf": "Self"
+        "precio": "2.019"
       }
     ]
   },
@@ -1164,13 +796,11 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "1.939",
-        "isSelf": "Self"
+        "precio": "1.939"
       },
       {
         "combustible": "Gasolio",
-        "precio": "1.999",
-        "isSelf": "Self"
+        "precio": "1.999"
       }
     ]
   },
@@ -1185,23 +815,11 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "2.020",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Benzina",
-        "precio": "2.020",
-        "isSelf": "Self"
+        "precio": "2.020"
       },
       {
         "combustible": "Gasolio",
-        "precio": "2.199",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Gasolio",
-        "precio": "2.199",
-        "isSelf": "Self"
+        "precio": "2.199"
       }
     ]
   },
@@ -1216,23 +834,11 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "1.999",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Benzina",
-        "precio": "1.999",
-        "isSelf": "Self"
+        "precio": "1.999"
       },
       {
         "combustible": "Gasolio",
-        "precio": "1.999",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Gasolio",
-        "precio": "1.999",
-        "isSelf": "Self"
+        "precio": "1.999"
       }
     ]
   },
@@ -1247,13 +853,11 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "1.959",
-        "isSelf": "Self"
+        "precio": "1.959"
       },
       {
         "combustible": "Gasolio",
-        "precio": "2.019",
-        "isSelf": "Self"
+        "precio": "2.019"
       }
     ]
   },
@@ -1268,13 +872,11 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "1.949",
-        "isSelf": "Self"
+        "precio": "1.949"
       },
       {
         "combustible": "Gasolio",
-        "precio": "1.939",
-        "isSelf": "Self"
+        "precio": "1.939"
       }
     ]
   },
@@ -1289,23 +891,11 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "1.979",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Benzina",
-        "precio": "1.979",
-        "isSelf": "Self"
+        "precio": "1.979"
       },
       {
         "combustible": "Gasolio",
-        "precio": "1.999",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Gasolio",
-        "precio": "1.999",
-        "isSelf": "Self"
+        "precio": "1.999"
       }
     ]
   },
@@ -1320,18 +910,15 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "1.980",
-        "isSelf": "Self"
+        "precio": "1.980"
       },
       {
         "combustible": "Gasolio",
-        "precio": "1.954",
-        "isSelf": "Self"
+        "precio": "1.954"
       },
       {
         "combustible": "Blue Diesel",
-        "precio": "2.054",
-        "isSelf": "Self"
+        "precio": "2.054"
       }
     ]
   },
@@ -1346,38 +933,19 @@
     "precios": [
       {
         "combustible": "Benzina",
-        "precio": "2.215",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Benzina",
-        "precio": "2.005",
-        "isSelf": "Self"
+        "precio": "2.005"
       },
       {
         "combustible": "Gasolio",
-        "precio": "2.234",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Gasolio",
-        "precio": "2.024",
-        "isSelf": "Self"
+        "precio": "2.024"
       },
       {
         "combustible": "Blue Super",
-        "precio": "2.155",
-        "isSelf": "Self"
+        "precio": "2.155"
       },
       {
         "combustible": "Blue Diesel",
-        "precio": "2.334",
-        "isSelf": "Servito"
-      },
-      {
-        "combustible": "Blue Diesel",
-        "precio": "2.124",
-        "isSelf": "Self"
+        "precio": "2.124"
       }
     ]
   },
