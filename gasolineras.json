@@ -7,8 +7,23 @@
     "comune": "BOLOGNA",
     "latitud": "44.4993638",
     "longitud": "11.3327659",
-    "precio": "1.948",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "1.948",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "1.934",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Blue Diesel",
+        "precio": "2.034",
+        "isSelf": "Self"
+      }
+    ]
   },
   {
     "idImpianto": "60825",
@@ -18,8 +33,58 @@
     "comune": "BOLOGNA",
     "latitud": "44.488335",
     "longitud": "11.333932",
-    "precio": "2.188",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "2.188",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Benzina",
+        "precio": "1.968",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "2.209",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "1.989",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Blue Super",
+        "precio": "2.338",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Blue Super",
+        "precio": "2.118",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Blue Diesel",
+        "precio": "2.309",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Blue Diesel",
+        "precio": "2.089",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "HVOlution",
+        "precio": "2.209",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "HVOlution",
+        "precio": "1.989",
+        "isSelf": "Self"
+      }
+    ]
   },
   {
     "idImpianto": "55270",
@@ -29,8 +94,28 @@
     "comune": "BOLOGNA",
     "latitud": "44.505997350968386",
     "longitud": "11.35892434631348",
-    "precio": "1.929",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "1.929",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Benzina",
+        "precio": "1.929",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "1.959",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "1.959",
+        "isSelf": "Self"
+      }
+    ]
   },
   {
     "idImpianto": "42023",
@@ -40,8 +125,38 @@
     "comune": "BOLOGNA",
     "latitud": "44.49253238665975",
     "longitud": "11.35705291289753",
-    "precio": "2.329",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "2.329",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Benzina",
+        "precio": "1.949",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "2.339",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "1.959",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Hi-Q Diesel",
+        "precio": "2.709",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Hi-Q Diesel",
+        "precio": "2.379",
+        "isSelf": "Self"
+      }
+    ]
   },
   {
     "idImpianto": "27662",
@@ -51,8 +166,18 @@
     "comune": "BOLOGNA",
     "latitud": "44.5077172155045",
     "longitud": "11.3409624490738",
-    "precio": "1.969",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "1.969",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "1.989",
+        "isSelf": "Self"
+      }
+    ]
   },
   {
     "idImpianto": "25234",
@@ -62,8 +187,18 @@
     "comune": "BOLOGNA",
     "latitud": "44.50071930097283",
     "longitud": "11.32349970185237",
-    "precio": "1.959",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "1.959",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "1.969",
+        "isSelf": "Self"
+      }
+    ]
   },
   {
     "idImpianto": "24882",
@@ -73,8 +208,18 @@
     "comune": "BOLOGNA",
     "latitud": "44.503174694061315",
     "longitud": "11.334042501223394",
-    "precio": "1.959",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "1.959",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "1.969",
+        "isSelf": "Self"
+      }
+    ]
   },
   {
     "idImpianto": "11512",
@@ -84,8 +229,18 @@
     "comune": "BOLOGNA",
     "latitud": "44.505015303379764",
     "longitud": "11.331492711639385",
-    "precio": "2.019",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "2.019",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "2.039",
+        "isSelf": "Self"
+      }
+    ]
   },
   {
     "idImpianto": "58127",
@@ -95,8 +250,28 @@
     "comune": "BOLOGNA",
     "latitud": "44.499093835197",
     "longitud": "11.356821656227112",
-    "precio": "1.970",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "1.970",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "1.954",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Blue Super",
+        "precio": "2.024",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Blue Diesel",
+        "precio": "2.054",
+        "isSelf": "Self"
+      }
+    ]
   },
   {
     "idImpianto": "54417",
@@ -106,8 +281,48 @@
     "comune": "BOLOGNA",
     "latitud": "44.5035732",
     "longitud": "11.3493568",
-    "precio": "2.189",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "2.189",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Benzina",
+        "precio": "1.950",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "2.209",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "1.989",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Blue Diesel",
+        "precio": "2.309",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Blue Diesel",
+        "precio": "2.089",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "HVOlution",
+        "precio": "2.209",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "HVOlution",
+        "precio": "1.989",
+        "isSelf": "Self"
+      }
+    ]
   },
   {
     "idImpianto": "45114",
@@ -117,8 +332,43 @@
     "comune": "BOLOGNA",
     "latitud": "44.508460000123",
     "longitud": "11.333764000123",
-    "precio": "2.169",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "2.169",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Benzina",
+        "precio": "1.949",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "2.189",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "1.969",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Blue Diesel",
+        "precio": "2.289",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Blue Diesel",
+        "precio": "2.069",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "HVOlution",
+        "precio": "1.969",
+        "isSelf": "Self"
+      }
+    ]
   },
   {
     "idImpianto": "61295",
@@ -128,8 +378,18 @@
     "comune": "BOLOGNA",
     "latitud": "44.48419943835058",
     "longitud": "11.35657906284333",
-    "precio": "1.929",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "1.929",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "1.949",
+        "isSelf": "Self"
+      }
+    ]
   },
   {
     "idImpianto": "44367",
@@ -139,8 +399,7 @@
     "comune": "BOLOGNA",
     "latitud": "44.498846000123",
     "longitud": "11.332851000123",
-    "precio": "N/A",
-    "tipoCarburante": "N/A"
+    "precios": []
   },
   {
     "idImpianto": "44368",
@@ -150,8 +409,18 @@
     "comune": "BOLOGNA",
     "latitud": "44.487150216540314",
     "longitud": "11.357698142528534",
-    "precio": "1.999",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "1.999",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "1.989",
+        "isSelf": "Servito"
+      }
+    ]
   },
   {
     "idImpianto": "42261",
@@ -161,8 +430,7 @@
     "comune": "BOLOGNA",
     "latitud": "44.48651067560299",
     "longitud": "11.34018860757351",
-    "precio": "N/A",
-    "tipoCarburante": "N/A"
+    "precios": []
   },
   {
     "idImpianto": "59065",
@@ -172,8 +440,48 @@
     "comune": "BOLOGNA",
     "latitud": "44.48672805214305",
     "longitud": "11.339253187179565",
-    "precio": "2.279",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "2.279",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Benzina",
+        "precio": "1.999",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "2.309",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "2.029",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Hi-Q Diesel",
+        "precio": "2.589",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Hi-Q Diesel",
+        "precio": "2.359",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "HiQ Perform+",
+        "precio": "2.499",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "HiQ Perform+",
+        "precio": "2.249",
+        "isSelf": "Self"
+      }
+    ]
   },
   {
     "idImpianto": "47304",
@@ -183,8 +491,7 @@
     "comune": "BOLOGNA",
     "latitud": "44.499380478643786",
     "longitud": "11.356782046627032",
-    "precio": "N/A",
-    "tipoCarburante": "N/A"
+    "precios": []
   },
   {
     "idImpianto": "30543",
@@ -194,8 +501,7 @@
     "comune": "BOLOGNA",
     "latitud": "44.48830767003097",
     "longitud": "11.333963830549692",
-    "precio": "N/A",
-    "tipoCarburante": "N/A"
+    "precios": []
   },
   {
     "idImpianto": "16696",
@@ -205,8 +511,28 @@
     "comune": "BOLOGNA",
     "latitud": "44.50091971200271",
     "longitud": "11.329546098147603",
-    "precio": "2.199",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "2.199",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Benzina",
+        "precio": "1.999",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "2.229",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "2.029",
+        "isSelf": "Self"
+      }
+    ]
   },
   {
     "idImpianto": "55577",
@@ -216,8 +542,7 @@
     "comune": "BRESCIA",
     "latitud": "45.4642035",
     "longitud": "9.189982",
-    "precio": "N/A",
-    "tipoCarburante": "N/A"
+    "precios": []
   },
   {
     "idImpianto": "56851",
@@ -227,8 +552,33 @@
     "comune": "BRESCIA",
     "latitud": "45.4642035",
     "longitud": "9.189982",
-    "precio": "2.149",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "2.149",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Benzina",
+        "precio": "1.959",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "2.189",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "1.999",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "GPL",
+        "precio": "0.819",
+        "isSelf": "Servito"
+      }
+    ]
   },
   {
     "idImpianto": "56357",
@@ -238,8 +588,23 @@
     "comune": "RONCO SCRIVIA",
     "latitud": "45.4642035",
     "longitud": "9.189982",
-    "precio": "1.879",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "1.879",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "1.979",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "HiQ Perform+",
+        "precio": "2.179",
+        "isSelf": "Self"
+      }
+    ]
   },
   {
     "idImpianto": "55674",
@@ -249,8 +614,7 @@
     "comune": "VEGLIE",
     "latitud": "45.4688768",
     "longitud": "9.1947008",
-    "precio": "N/A",
-    "tipoCarburante": "N/A"
+    "precios": []
   },
   {
     "idImpianto": "53351",
@@ -260,8 +624,7 @@
     "comune": "LISSONE",
     "latitud": "45.4642035",
     "longitud": "9.189982",
-    "precio": "N/A",
-    "tipoCarburante": "N/A"
+    "precios": []
   },
   {
     "idImpianto": "61148",
@@ -271,8 +634,18 @@
     "comune": "ARLUNO",
     "latitud": "45.4688768",
     "longitud": "9.2012544",
-    "precio": "1.979",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "1.979",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "1.999",
+        "isSelf": "Self"
+      }
+    ]
   },
   {
     "idImpianto": "61149",
@@ -282,8 +655,33 @@
     "comune": "BUSTO GAROLFO",
     "latitud": "45.4688768",
     "longitud": "9.2012544",
-    "precio": "1.919",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "1.919",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "1.939",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "GPL",
+        "precio": "0.789",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "L-GNC",
+        "precio": "1.499",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "GNL",
+        "precio": "1.459",
+        "isSelf": "Servito"
+      }
+    ]
   },
   {
     "idImpianto": "61151",
@@ -293,8 +691,23 @@
     "comune": "MAGENTA",
     "latitud": "45.46887679999998",
     "longitud": "9.202971013769522",
-    "precio": "1.969",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "1.969",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "1.959",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "GPL",
+        "precio": "0.799",
+        "isSelf": "Servito"
+      }
+    ]
   },
   {
     "idImpianto": "59871",
@@ -304,8 +717,58 @@
     "comune": "MILANO",
     "latitud": "45.45732",
     "longitud": "9.170947",
-    "precio": "2.170",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "2.170",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Benzina",
+        "precio": "1.950",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "2.189",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "1.969",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Blue Super",
+        "precio": "2.320",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Blue Super",
+        "precio": "2.100",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Blue Diesel",
+        "precio": "2.289",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Blue Diesel",
+        "precio": "2.069",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "HVOlution",
+        "precio": "2.189",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "HVOlution",
+        "precio": "1.969",
+        "isSelf": "Self"
+      }
+    ]
   },
   {
     "idImpianto": "34486",
@@ -315,8 +778,28 @@
     "comune": "MILANO",
     "latitud": "45.47316727709888",
     "longitud": "9.199446514248848",
-    "precio": "2.069",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "2.069",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Benzina",
+        "precio": "2.069",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "HVO",
+        "precio": "2.169",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "HVO",
+        "precio": "2.169",
+        "isSelf": "Self"
+      }
+    ]
   },
   {
     "idImpianto": "13674",
@@ -326,8 +809,28 @@
     "comune": "MILANO",
     "latitud": "45.46135052116656",
     "longitud": "9.207011958022463",
-    "precio": "2.240",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "2.240",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Benzina",
+        "precio": "2.240",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "2.366",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "2.366",
+        "isSelf": "Self"
+      }
+    ]
   },
   {
     "idImpianto": "12348",
@@ -337,8 +840,28 @@
     "comune": "MILANO",
     "latitud": "45.4668634802216",
     "longitud": "9.166152693286449",
-    "precio": "2.280",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "2.280",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Benzina",
+        "precio": "2.280",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "2.396",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "2.396",
+        "isSelf": "Self"
+      }
+    ]
   },
   {
     "idImpianto": "28709",
@@ -348,8 +871,28 @@
     "comune": "MILANO",
     "latitud": "45.47100158386513",
     "longitud": "9.199553826276997",
-    "precio": "2.099",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "2.099",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Benzina",
+        "precio": "2.099",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "2.299",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "2.299",
+        "isSelf": "Self"
+      }
+    ]
   },
   {
     "idImpianto": "56142",
@@ -359,8 +902,28 @@
     "comune": "MILANO",
     "latitud": "45.4713",
     "longitud": "9.1919",
-    "precio": "1.999",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "1.999",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Benzina",
+        "precio": "1.999",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "2.019",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "2.019",
+        "isSelf": "Self"
+      }
+    ]
   },
   {
     "idImpianto": "56141",
@@ -370,8 +933,28 @@
     "comune": "MILANO",
     "latitud": "45.4713",
     "longitud": "9.1919",
-    "precio": "1.989",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "1.989",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Benzina",
+        "precio": "1.989",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "2.019",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "2.019",
+        "isSelf": "Self"
+      }
+    ]
   },
   {
     "idImpianto": "17894",
@@ -381,8 +964,18 @@
     "comune": "MILANO",
     "latitud": "45.4644384579492",
     "longitud": "9.199945403805714",
-    "precio": "1.969",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "1.969",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "1.999",
+        "isSelf": "Self"
+      }
+    ]
   },
   {
     "idImpianto": "52529",
@@ -392,8 +985,18 @@
     "comune": "MILANO",
     "latitud": "45.44920754498186",
     "longitud": "9.18585579198226",
-    "precio": "1.959",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "1.959",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "1.999",
+        "isSelf": "Servito"
+      }
+    ]
   },
   {
     "idImpianto": "61864",
@@ -403,8 +1006,28 @@
     "comune": "MILANO",
     "latitud": "45.468209503270344",
     "longitud": "9.211420983968829",
-    "precio": "1.999",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "1.999",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Benzina",
+        "precio": "1.999",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "2.099",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "2.099",
+        "isSelf": "Self"
+      }
+    ]
   },
   {
     "idImpianto": "61058",
@@ -414,8 +1037,18 @@
     "comune": "MILANO",
     "latitud": "45.47507",
     "longitud": "9.18812",
-    "precio": "2.299",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "2.299",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "2.399",
+        "isSelf": "Self"
+      }
+    ]
   },
   {
     "idImpianto": "62053",
@@ -425,8 +1058,18 @@
     "comune": "MILANO",
     "latitud": "45.4477982",
     "longitud": "9.1842094",
-    "precio": "1.959",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "1.959",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "1.999",
+        "isSelf": "Self"
+      }
+    ]
   },
   {
     "idImpianto": "15888",
@@ -436,8 +1079,28 @@
     "comune": "MILANO",
     "latitud": "45.45184021105817",
     "longitud": "9.193965948556524",
-    "precio": "1.989",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "1.989",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Benzina",
+        "precio": "1.989",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "2.029",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "2.029",
+        "isSelf": "Self"
+      }
+    ]
   },
   {
     "idImpianto": "15890",
@@ -447,8 +1110,28 @@
     "comune": "MILANO",
     "latitud": "45.477935609703955",
     "longitud": "9.19595092535019",
-    "precio": "2.229",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "2.229",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Benzina",
+        "precio": "1.979",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "2.269",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "2.019",
+        "isSelf": "Self"
+      }
+    ]
   },
   {
     "idImpianto": "18871",
@@ -458,8 +1141,7 @@
     "comune": "MILANO",
     "latitud": "45.467816042109845",
     "longitud": "9.21131931245327",
-    "precio": "N/A",
-    "tipoCarburante": "N/A"
+    "precios": []
   },
   {
     "idImpianto": "22003",
@@ -469,8 +1151,7 @@
     "comune": "MILANO",
     "latitud": "45.45699042088013",
     "longitud": "9.17105508685529",
-    "precio": "N/A",
-    "tipoCarburante": "N/A"
+    "precios": []
   },
   {
     "idImpianto": "61903",
@@ -480,8 +1161,18 @@
     "comune": "MILANO",
     "latitud": "45.4599213",
     "longitud": "9.1913762",
-    "precio": "1.939",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "1.939",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "1.999",
+        "isSelf": "Self"
+      }
+    ]
   },
   {
     "idImpianto": "12379",
@@ -491,8 +1182,28 @@
     "comune": "MILANO",
     "latitud": "45.46578161023504",
     "longitud": "9.16580569675807",
-    "precio": "2.020",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "2.020",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Benzina",
+        "precio": "2.020",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "2.199",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "2.199",
+        "isSelf": "Self"
+      }
+    ]
   },
   {
     "idImpianto": "54520",
@@ -502,8 +1213,28 @@
     "comune": "MILANO",
     "latitud": "45.449820337376266",
     "longitud": "9.190642578125003",
-    "precio": "1.999",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "1.999",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Benzina",
+        "precio": "1.999",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "1.999",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "1.999",
+        "isSelf": "Self"
+      }
+    ]
   },
   {
     "idImpianto": "54251",
@@ -513,8 +1244,18 @@
     "comune": "FINALE EMILIA",
     "latitud": "45.4642035",
     "longitud": "9.189982",
-    "precio": "1.959",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "1.959",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "2.019",
+        "isSelf": "Self"
+      }
+    ]
   },
   {
     "idImpianto": "61154",
@@ -524,8 +1265,18 @@
     "comune": "ROMENTINO",
     "latitud": "45.4688768",
     "longitud": "9.2012544",
-    "precio": "1.949",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "1.949",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "1.939",
+        "isSelf": "Self"
+      }
+    ]
   },
   {
     "idImpianto": "7036",
@@ -535,8 +1286,28 @@
     "comune": "BIRORI",
     "latitud": "45.4688973",
     "longitud": "9.1966358",
-    "precio": "1.979",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "1.979",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Benzina",
+        "precio": "1.979",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "1.999",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "1.999",
+        "isSelf": "Self"
+      }
+    ]
   },
   {
     "idImpianto": "57380",
@@ -546,8 +1317,23 @@
     "comune": "BETTOLA",
     "latitud": "45.4713",
     "longitud": "9.1919",
-    "precio": "1.980",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "1.980",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "1.954",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Blue Diesel",
+        "precio": "2.054",
+        "isSelf": "Self"
+      }
+    ]
   },
   {
     "idImpianto": "55216",
@@ -557,8 +1343,43 @@
     "comune": "SALA BAGANZA",
     "latitud": "45.4642035",
     "longitud": "9.189982",
-    "precio": "2.215",
-    "tipoCarburante": "Benzina"
+    "precios": [
+      {
+        "combustible": "Benzina",
+        "precio": "2.215",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Benzina",
+        "precio": "2.005",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "2.234",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Gasolio",
+        "precio": "2.024",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Blue Super",
+        "precio": "2.155",
+        "isSelf": "Self"
+      },
+      {
+        "combustible": "Blue Diesel",
+        "precio": "2.334",
+        "isSelf": "Servito"
+      },
+      {
+        "combustible": "Blue Diesel",
+        "precio": "2.124",
+        "isSelf": "Self"
+      }
+    ]
   },
   {
     "idImpianto": "59932",
@@ -568,7 +1389,6 @@
     "comune": "LATRONICO",
     "latitud": "45.468503",
     "longitud": "9.1824027",
-    "precio": "N/A",
-    "tipoCarburante": "N/A"
+    "precios": []
   }
 ]
