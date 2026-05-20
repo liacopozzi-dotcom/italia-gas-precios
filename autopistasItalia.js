@@ -1,6 +1,6 @@
 // Archivo generado automáticamente - Gasolineras Autostradale
 
-export const AUTOPISTAS_ITALIA = [
+const AUTOPISTAS_ITALIA = [
   {
     "idImpianto": 50432,
     "rotulo": "AUTOBAR DI GINETTI GIANCARLO & C. S.R.L.",
@@ -4283,10 +4283,11 @@ export const AUTOPISTAS_ITALIA = [
   }
 ];
 // AÑADE ESTO AL FINAL para definir el rango de búsqueda de tu viaje:
-export const CONFIGURACION_RUTA = {
+const CONFIGURACION_RUTA = {
     radioKM: 2, 
     rutaPuntos: [
         { lat: 45.4642, lon: 9.1900 }, // Ejemplo: Punto 1
         { lat: 44.4949, lon: 11.3426 }  // Ejemplo: Punto 2
     ]
 };
+module.exports = { AUTOPISTAS_ITALIA, CONFIGURACION_RUTA };
