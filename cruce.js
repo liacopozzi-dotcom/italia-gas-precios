@@ -11,7 +11,7 @@ function descargarYConvertir(url) {
             res.on('data', (chunk) => { data += chunk; });
             res.on('end', () => {
                 const lineas = data.split('\n');
-                // El archivo usa | como separador
+                // Usamos | como separador
                 const cabeceras = lineas[0].split('|').map(h => h.trim());
                 
                 const resultado = lineas.slice(1).map(linea => {
@@ -36,26 +36,17 @@ function calcularDistancia(lat1, lon1, lat2, lon2) {
 }
 
 async function procesar() {
-    console.log("Descargando y filtrando gasolineras...");
+    console.log("Iniciando proceso...");
     const todas = await descargarYConvertir(URL_CSV);
     
-    const filtradas = todas.filter(gas => {
-        // Aseguramos que los valores sean texto antes de reemplazar
-        const latStr = gas.Latitudine || "";
-        const lonStr = gas.Longitudine || "";
-        
-        const gLat = parseFloat(latStr.replace(',', '.'));
-        const gLon = parseFloat(lonStr.replace(',', '.'));
-        
-        if (isNaN(gLat) || isNaN(gLon)) return false;
-        
-        return CONFIGURACION_RUTA.rutaPuntos.some(punto => 
-            calcularDistancia(gLat, gLon, punto.lat, punto.lon) <= CONFIGURACION_RUTA.radioKM
-        );
-    });
+    console.log(`Total registros leídos del CSV: ${todas.length}`);
+
+    // TEMPORAL: Guardamos las primeras 50 gasolineras sin filtrar por distancia
+    // para confirmar que el script está leyendo los datos correctamente.
+    const filtradas = todas.slice(0, 50); 
 
     fs.writeFileSync('gasolineras.json', JSON.stringify(filtradas, null, 2));
-    console.log(`Proceso completado. Gasolineras en ruta: ${filtradas.length}`);
+    console.log(`Proceso completado. Gasolineras guardadas en el archivo: ${filtradas.length}`);
 }
 
 procesar();
