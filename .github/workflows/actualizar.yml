@@ -25,5 +25,6 @@ jobs:
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           git add gasolineras.json
-          git commit -m "Actualización automática de precios"
+          # El comando || true hace que si no hay cambios, no falle
+          git commit -m "Actualización automática de precios" || true
           git push
