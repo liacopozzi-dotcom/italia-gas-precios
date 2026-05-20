@@ -4282,3 +4282,11 @@ export const AUTOPISTAS_ITALIA = [
     "tipoImpianto": "AUTOSTRADALE"
   }
 ];
+// AÑADE ESTO AL FINAL para definir el rango de búsqueda de tu viaje:
+export const CONFIGURACION_RUTA = {
+    radioKM: 2, 
+    rutaPuntos: [
+        { lat: 45.4642, lon: 9.1900 }, // Ejemplo: Punto 1
+        { lat: 44.4949, lon: 11.3426 }  // Ejemplo: Punto 2
+    ]
+};
