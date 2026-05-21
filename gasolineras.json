@@ -7,18 +7,19 @@
     "comune": "BOLOGNA",
     "latitud": "44.4993638",
     "longitud": "11.3327659",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
-        "precio": "1.948"
+        "combustible": "benzina",
+        "precio": "1.968"
       },
       {
-        "combustible": "Gasolio",
-        "precio": "1.934"
+        "combustible": "gasolio",
+        "precio": "1.954"
       },
       {
-        "combustible": "Blue Diesel",
-        "precio": "2.034"
+        "combustible": "blue diesel",
+        "precio": "2.054"
       }
     ]
   },
@@ -30,25 +31,26 @@
     "comune": "BOLOGNA",
     "latitud": "44.488335",
     "longitud": "11.333932",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
-        "precio": "1.968"
+        "combustible": "benzina",
+        "precio": "1.988"
       },
       {
-        "combustible": "Gasolio",
+        "combustible": "gasolio",
         "precio": "1.989"
       },
       {
-        "combustible": "Blue Super",
-        "precio": "2.118"
+        "combustible": "blue super",
+        "precio": "2.138"
       },
       {
-        "combustible": "Blue Diesel",
+        "combustible": "blue diesel",
         "precio": "2.089"
       },
       {
-        "combustible": "HVOlution",
+        "combustible": "hvolution",
         "precio": "1.989"
       }
     ]
@@ -61,13 +63,14 @@
     "comune": "BOLOGNA",
     "latitud": "44.505997350968386",
     "longitud": "11.35892434631348",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
-        "precio": "1.929"
+        "combustible": "benzina",
+        "precio": "1.949"
       },
       {
-        "combustible": "Gasolio",
+        "combustible": "gasolio",
         "precio": "1.959"
       }
     ]
@@ -80,17 +83,18 @@
     "comune": "BOLOGNA",
     "latitud": "44.49253238665975",
     "longitud": "11.35705291289753",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
-        "precio": "1.949"
+        "combustible": "benzina",
+        "precio": "1.979"
       },
       {
-        "combustible": "Gasolio",
-        "precio": "1.959"
+        "combustible": "gasolio",
+        "precio": "1.979"
       },
       {
-        "combustible": "Hi-Q Diesel",
+        "combustible": "hi-q diesel",
         "precio": "2.379"
       }
     ]
@@ -103,13 +107,14 @@
     "comune": "BOLOGNA",
     "latitud": "44.5077172155045",
     "longitud": "11.3409624490738",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
+        "combustible": "benzina",
         "precio": "1.969"
       },
       {
-        "combustible": "Gasolio",
+        "combustible": "gasolio",
         "precio": "1.989"
       }
     ]
@@ -122,14 +127,15 @@
     "comune": "BOLOGNA",
     "latitud": "44.50071930097283",
     "longitud": "11.32349970185237",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
-        "precio": "1.959"
+        "combustible": "benzina",
+        "precio": "1.969"
       },
       {
-        "combustible": "Gasolio",
-        "precio": "1.969"
+        "combustible": "gasolio",
+        "precio": "1.989"
       }
     ]
   },
@@ -141,14 +147,15 @@
     "comune": "BOLOGNA",
     "latitud": "44.503174694061315",
     "longitud": "11.334042501223394",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
-        "precio": "1.959"
+        "combustible": "benzina",
+        "precio": "1.969"
       },
       {
-        "combustible": "Gasolio",
-        "precio": "1.969"
+        "combustible": "gasolio",
+        "precio": "1.989"
       }
     ]
   },
@@ -160,13 +167,14 @@
     "comune": "BOLOGNA",
     "latitud": "44.505015303379764",
     "longitud": "11.331492711639385",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
+        "combustible": "benzina",
         "precio": "2.019"
       },
       {
-        "combustible": "Gasolio",
+        "combustible": "gasolio",
         "precio": "2.039"
       }
     ]
@@ -179,21 +187,22 @@
     "comune": "BOLOGNA",
     "latitud": "44.499093835197",
     "longitud": "11.356821656227112",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
-        "precio": "1.970"
+        "combustible": "benzina",
+        "precio": "1.990"
       },
       {
-        "combustible": "Gasolio",
+        "combustible": "gasolio",
         "precio": "1.954"
       },
       {
-        "combustible": "Blue Super",
+        "combustible": "blue super",
         "precio": "2.024"
       },
       {
-        "combustible": "Blue Diesel",
+        "combustible": "blue diesel",
         "precio": "2.054"
       }
     ]
@@ -206,21 +215,22 @@
     "comune": "BOLOGNA",
     "latitud": "44.5035732",
     "longitud": "11.3493568",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
-        "precio": "1.950"
+        "combustible": "benzina",
+        "precio": "1.990"
       },
       {
-        "combustible": "Gasolio",
+        "combustible": "gasolio",
         "precio": "1.989"
       },
       {
-        "combustible": "Blue Diesel",
+        "combustible": "blue diesel",
         "precio": "2.089"
       },
       {
-        "combustible": "HVOlution",
+        "combustible": "hvolution",
         "precio": "1.989"
       }
     ]
@@ -233,22 +243,23 @@
     "comune": "BOLOGNA",
     "latitud": "44.508460000123",
     "longitud": "11.333764000123",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
-        "precio": "1.949"
-      },
-      {
-        "combustible": "Gasolio",
+        "combustible": "benzina",
         "precio": "1.969"
       },
       {
-        "combustible": "Blue Diesel",
-        "precio": "2.069"
+        "combustible": "gasolio",
+        "precio": "1.989"
       },
       {
-        "combustible": "HVOlution",
-        "precio": "1.969"
+        "combustible": "blue diesel",
+        "precio": "2.089"
+      },
+      {
+        "combustible": "hvolution",
+        "precio": "1.989"
       }
     ]
   },
@@ -260,13 +271,14 @@
     "comune": "BOLOGNA",
     "latitud": "44.48419943835058",
     "longitud": "11.35657906284333",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
+        "combustible": "benzina",
         "precio": "1.929"
       },
       {
-        "combustible": "Gasolio",
+        "combustible": "gasolio",
         "precio": "1.949"
       }
     ]
@@ -279,6 +291,7 @@
     "comune": "BOLOGNA",
     "latitud": "44.498846000123",
     "longitud": "11.332851000123",
+    "tipoImpianto": "Stradale",
     "precios": []
   },
   {
@@ -289,6 +302,7 @@
     "comune": "BOLOGNA",
     "latitud": "44.487150216540314",
     "longitud": "11.357698142528534",
+    "tipoImpianto": "Stradale",
     "precios": []
   },
   {
@@ -299,6 +313,7 @@
     "comune": "BOLOGNA",
     "latitud": "44.48651067560299",
     "longitud": "11.34018860757351",
+    "tipoImpianto": "Stradale",
     "precios": []
   },
   {
@@ -309,22 +324,23 @@
     "comune": "BOLOGNA",
     "latitud": "44.48672805214305",
     "longitud": "11.339253187179565",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
+        "combustible": "benzina",
         "precio": "1.999"
       },
       {
-        "combustible": "Gasolio",
-        "precio": "2.029"
+        "combustible": "gasolio",
+        "precio": "1.939"
       },
       {
-        "combustible": "Hi-Q Diesel",
+        "combustible": "hi-q diesel",
         "precio": "2.359"
       },
       {
-        "combustible": "HiQ Perform+",
-        "precio": "2.249"
+        "combustible": "hiq perform+",
+        "precio": "2.299"
       }
     ]
   },
@@ -336,6 +352,7 @@
     "comune": "BOLOGNA",
     "latitud": "44.499380478643786",
     "longitud": "11.356782046627032",
+    "tipoImpianto": "Stradale",
     "precios": []
   },
   {
@@ -346,6 +363,7 @@
     "comune": "BOLOGNA",
     "latitud": "44.48830767003097",
     "longitud": "11.333963830549692",
+    "tipoImpianto": "Stradale",
     "precios": []
   },
   {
@@ -356,13 +374,14 @@
     "comune": "BOLOGNA",
     "latitud": "44.50091971200271",
     "longitud": "11.329546098147603",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
+        "combustible": "benzina",
         "precio": "1.999"
       },
       {
-        "combustible": "Gasolio",
+        "combustible": "gasolio",
         "precio": "2.029"
       }
     ]
@@ -375,6 +394,7 @@
     "comune": "BRESCIA",
     "latitud": "45.4642035",
     "longitud": "9.189982",
+    "tipoImpianto": "Stradale",
     "precios": []
   },
   {
@@ -385,13 +405,14 @@
     "comune": "BRESCIA",
     "latitud": "45.4642035",
     "longitud": "9.189982",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
+        "combustible": "benzina",
         "precio": "1.959"
       },
       {
-        "combustible": "Gasolio",
+        "combustible": "gasolio",
         "precio": "1.999"
       }
     ]
@@ -404,17 +425,18 @@
     "comune": "RONCO SCRIVIA",
     "latitud": "45.4642035",
     "longitud": "9.189982",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
+        "combustible": "benzina",
         "precio": "1.879"
       },
       {
-        "combustible": "Gasolio",
+        "combustible": "gasolio",
         "precio": "1.979"
       },
       {
-        "combustible": "HiQ Perform+",
+        "combustible": "hiq perform+",
         "precio": "2.179"
       }
     ]
@@ -427,6 +449,7 @@
     "comune": "VEGLIE",
     "latitud": "45.4688768",
     "longitud": "9.1947008",
+    "tipoImpianto": "Stradale",
     "precios": []
   },
   {
@@ -437,6 +460,7 @@
     "comune": "LISSONE",
     "latitud": "45.4642035",
     "longitud": "9.189982",
+    "tipoImpianto": "Stradale",
     "precios": []
   },
   {
@@ -447,13 +471,14 @@
     "comune": "ARLUNO",
     "latitud": "45.4688768",
     "longitud": "9.2012544",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
-        "precio": "1.979"
+        "combustible": "benzina",
+        "precio": "1.989"
       },
       {
-        "combustible": "Gasolio",
+        "combustible": "gasolio",
         "precio": "1.999"
       }
     ]
@@ -466,14 +491,15 @@
     "comune": "BUSTO GAROLFO",
     "latitud": "45.4688768",
     "longitud": "9.2012544",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
+        "combustible": "benzina",
         "precio": "1.919"
       },
       {
-        "combustible": "Gasolio",
-        "precio": "1.939"
+        "combustible": "gasolio",
+        "precio": "1.959"
       }
     ]
   },
@@ -485,14 +511,15 @@
     "comune": "MAGENTA",
     "latitud": "45.46887679999998",
     "longitud": "9.202971013769522",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
+        "combustible": "benzina",
         "precio": "1.969"
       },
       {
-        "combustible": "Gasolio",
-        "precio": "1.959"
+        "combustible": "gasolio",
+        "precio": "1.979"
       }
     ]
   },
@@ -504,26 +531,19 @@
     "comune": "MILANO",
     "latitud": "45.45732",
     "longitud": "9.170947",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
-        "precio": "1.950"
+        "combustible": "gasolio",
+        "precio": "1.989"
       },
       {
-        "combustible": "Gasolio",
-        "precio": "1.969"
+        "combustible": "blue diesel",
+        "precio": "2.089"
       },
       {
-        "combustible": "Blue Super",
-        "precio": "2.100"
-      },
-      {
-        "combustible": "Blue Diesel",
-        "precio": "2.069"
-      },
-      {
-        "combustible": "HVOlution",
-        "precio": "1.969"
+        "combustible": "hvolution",
+        "precio": "1.989"
       }
     ]
   },
@@ -535,13 +555,14 @@
     "comune": "MILANO",
     "latitud": "45.47316727709888",
     "longitud": "9.199446514248848",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
+        "combustible": "benzina",
         "precio": "2.069"
       },
       {
-        "combustible": "HVO",
+        "combustible": "hvo",
         "precio": "2.169"
       }
     ]
@@ -554,13 +575,14 @@
     "comune": "MILANO",
     "latitud": "45.46135052116656",
     "longitud": "9.207011958022463",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
+        "combustible": "benzina",
         "precio": "2.240"
       },
       {
-        "combustible": "Gasolio",
+        "combustible": "gasolio",
         "precio": "2.366"
       }
     ]
@@ -573,13 +595,14 @@
     "comune": "MILANO",
     "latitud": "45.4668634802216",
     "longitud": "9.166152693286449",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
+        "combustible": "benzina",
         "precio": "2.280"
       },
       {
-        "combustible": "Gasolio",
+        "combustible": "gasolio",
         "precio": "2.396"
       }
     ]
@@ -592,13 +615,14 @@
     "comune": "MILANO",
     "latitud": "45.47100158386513",
     "longitud": "9.199553826276997",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
+        "combustible": "benzina",
         "precio": "2.099"
       },
       {
-        "combustible": "Gasolio",
+        "combustible": "gasolio",
         "precio": "2.299"
       }
     ]
@@ -611,13 +635,14 @@
     "comune": "MILANO",
     "latitud": "45.4713",
     "longitud": "9.1919",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
+        "combustible": "benzina",
         "precio": "1.999"
       },
       {
-        "combustible": "Gasolio",
+        "combustible": "gasolio",
         "precio": "2.019"
       }
     ]
@@ -630,13 +655,14 @@
     "comune": "MILANO",
     "latitud": "45.4713",
     "longitud": "9.1919",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
+        "combustible": "benzina",
         "precio": "1.989"
       },
       {
-        "combustible": "Gasolio",
+        "combustible": "gasolio",
         "precio": "2.019"
       }
     ]
@@ -649,14 +675,15 @@
     "comune": "MILANO",
     "latitud": "45.4644384579492",
     "longitud": "9.199945403805714",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
-        "precio": "1.969"
+        "combustible": "benzina",
+        "precio": "1.999"
       },
       {
-        "combustible": "Gasolio",
-        "precio": "1.999"
+        "combustible": "gasolio",
+        "precio": "2.019"
       }
     ]
   },
@@ -668,6 +695,7 @@
     "comune": "MILANO",
     "latitud": "45.44920754498186",
     "longitud": "9.18585579198226",
+    "tipoImpianto": "Stradale",
     "precios": []
   },
   {
@@ -678,13 +706,14 @@
     "comune": "MILANO",
     "latitud": "45.468209503270344",
     "longitud": "9.211420983968829",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
-        "precio": "1.999"
+        "combustible": "benzina",
+        "precio": "2.059"
       },
       {
-        "combustible": "Gasolio",
+        "combustible": "gasolio",
         "precio": "2.099"
       }
     ]
@@ -697,13 +726,14 @@
     "comune": "MILANO",
     "latitud": "45.47507",
     "longitud": "9.18812",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
+        "combustible": "benzina",
         "precio": "2.299"
       },
       {
-        "combustible": "Gasolio",
+        "combustible": "gasolio",
         "precio": "2.399"
       }
     ]
@@ -716,13 +746,14 @@
     "comune": "MILANO",
     "latitud": "45.4477982",
     "longitud": "9.1842094",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
-        "precio": "1.959"
+        "combustible": "benzina",
+        "precio": "1.969"
       },
       {
-        "combustible": "Gasolio",
+        "combustible": "gasolio",
         "precio": "1.999"
       }
     ]
@@ -735,13 +766,14 @@
     "comune": "MILANO",
     "latitud": "45.45184021105817",
     "longitud": "9.193965948556524",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
+        "combustible": "benzina",
         "precio": "1.989"
       },
       {
-        "combustible": "Gasolio",
+        "combustible": "gasolio",
         "precio": "2.029"
       }
     ]
@@ -754,14 +786,15 @@
     "comune": "MILANO",
     "latitud": "45.477935609703955",
     "longitud": "9.19595092535019",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
-        "precio": "1.979"
+        "combustible": "benzina",
+        "precio": "1.999"
       },
       {
-        "combustible": "Gasolio",
-        "precio": "2.019"
+        "combustible": "gasolio",
+        "precio": "2.039"
       }
     ]
   },
@@ -773,6 +806,7 @@
     "comune": "MILANO",
     "latitud": "45.467816042109845",
     "longitud": "9.21131931245327",
+    "tipoImpianto": "Stradale",
     "precios": []
   },
   {
@@ -783,6 +817,7 @@
     "comune": "MILANO",
     "latitud": "45.45699042088013",
     "longitud": "9.17105508685529",
+    "tipoImpianto": "Stradale",
     "precios": []
   },
   {
@@ -793,13 +828,14 @@
     "comune": "MILANO",
     "latitud": "45.4599213",
     "longitud": "9.1913762",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
+        "combustible": "benzina",
         "precio": "1.939"
       },
       {
-        "combustible": "Gasolio",
+        "combustible": "gasolio",
         "precio": "1.999"
       }
     ]
@@ -812,13 +848,14 @@
     "comune": "MILANO",
     "latitud": "45.46578161023504",
     "longitud": "9.16580569675807",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
+        "combustible": "benzina",
         "precio": "2.020"
       },
       {
-        "combustible": "Gasolio",
+        "combustible": "gasolio",
         "precio": "2.199"
       }
     ]
@@ -831,13 +868,14 @@
     "comune": "MILANO",
     "latitud": "45.449820337376266",
     "longitud": "9.190642578125003",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
+        "combustible": "benzina",
         "precio": "1.999"
       },
       {
-        "combustible": "Gasolio",
+        "combustible": "gasolio",
         "precio": "1.999"
       }
     ]
@@ -850,13 +888,14 @@
     "comune": "FINALE EMILIA",
     "latitud": "45.4642035",
     "longitud": "9.189982",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
+        "combustible": "benzina",
         "precio": "1.959"
       },
       {
-        "combustible": "Gasolio",
+        "combustible": "gasolio",
         "precio": "2.019"
       }
     ]
@@ -869,13 +908,14 @@
     "comune": "ROMENTINO",
     "latitud": "45.4688768",
     "longitud": "9.2012544",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
+        "combustible": "benzina",
         "precio": "1.949"
       },
       {
-        "combustible": "Gasolio",
+        "combustible": "gasolio",
         "precio": "1.939"
       }
     ]
@@ -888,13 +928,14 @@
     "comune": "BIRORI",
     "latitud": "45.4688973",
     "longitud": "9.1966358",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
+        "combustible": "benzina",
         "precio": "1.979"
       },
       {
-        "combustible": "Gasolio",
+        "combustible": "gasolio",
         "precio": "1.999"
       }
     ]
@@ -907,17 +948,18 @@
     "comune": "BETTOLA",
     "latitud": "45.4713",
     "longitud": "9.1919",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
-        "precio": "1.980"
+        "combustible": "benzina",
+        "precio": "2.000"
       },
       {
-        "combustible": "Gasolio",
+        "combustible": "gasolio",
         "precio": "1.954"
       },
       {
-        "combustible": "Blue Diesel",
+        "combustible": "blue diesel",
         "precio": "2.054"
       }
     ]
@@ -930,21 +972,22 @@
     "comune": "SALA BAGANZA",
     "latitud": "45.4642035",
     "longitud": "9.189982",
+    "tipoImpianto": "Stradale",
     "precios": [
       {
-        "combustible": "Benzina",
-        "precio": "2.005"
+        "combustible": "benzina",
+        "precio": "2.025"
       },
       {
-        "combustible": "Gasolio",
+        "combustible": "gasolio",
         "precio": "2.024"
       },
       {
-        "combustible": "Blue Super",
-        "precio": "2.155"
+        "combustible": "blue super",
+        "precio": "2.175"
       },
       {
-        "combustible": "Blue Diesel",
+        "combustible": "blue diesel",
         "precio": "2.124"
       }
     ]
@@ -957,6 +1000,7 @@
     "comune": "LATRONICO",
     "latitud": "45.468503",
     "longitud": "9.1824027",
+    "tipoImpianto": "Stradale",
     "precios": []
   }
 ]
