@@ -75,7 +75,7 @@ async function procesar() {
         // 1. Buscamos los precios de esta estación y nos quedamos SOLO con los "isSelf === 1"
         const listaPreciosSelf = precios.filter(p => p.idImpianto === imp.idImpianto && p.isSelf === "1");
         
-        // 2. Agrupamos por tipo de combustible para elegir siempre el más barato si está repetido
+        // 2. Agrupamos por tipo de combustible para elegir siempre el más barato
         const mapaCombustibles = {};
         
         listaPreciosSelf.forEach(p => {
@@ -83,17 +83,15 @@ async function procesar() {
             const precioActual = parseFloat(p.prezzo);
             
             if (!isNaN(precioActual)) {
-                // Si no existe este combustible todavía, o si el precio nuevo es más bajo que el que teníamos, lo guardamos
-                if (!mapaCombustibles[nombreCombustible] || precioActual < mapaCombustibles[nombreCombustible].precio) {
+                if (!mapaCombustibles[nombreCombustible] || precioActual < parseFloat(mapaCombustibles[nombreCombustible].precio)) {
                     mapaCombustibles[nombreCombustible] = {
                         combustible: nombreCombustible,
-                        precio: p.prezzo // Guardamos el texto original ("1.968")
+                        precio: p.prezzo
                     };
                 }
             }
         });
 
-        // Convertimos el mapa limpio otra vez a una lista (Array)
         const carburantesLimpios = Object.values(mapaCombustibles);
 
         return {
@@ -104,17 +102,15 @@ async function procesar() {
             comune: imp.Comune,
             latitud: imp.Latitudine,
             longitud: imp.Longitudine,
-            // Aggiungiamo questa riga per sapere se è Autostradale o Urbano
             tipoImpianto: imp['Tipo Impianto'] || "Urbano", 
-            // Normalizziamo i combustibili in minuscolo per farli coincidere con la App
             precios: carburantesLimpios.map(p => ({
                 combustible: p.combustible.toLowerCase().trim(),
                 precio: p.precio
             }))
         };
+    }); // <--- AQUÍ SE CIERRA EL MAP DE FILTRADAS
 
     fs.writeFileSync('gasolineras.json', JSON.stringify(resultadoFinal, null, 2));
     console.log(`¡Proceso completado! Guardadas ${resultadoFinal.length} gasolineras optimizadas en modo Self.`);
 }
-
 procesar();
