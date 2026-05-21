@@ -104,9 +104,14 @@ async function procesar() {
             comune: imp.Comune,
             latitud: imp.Latitudine,
             longitud: imp.Longitudine,
-            precios: carburantesLimpios // Solo contiene elementos Self únicos con el precio más bajo
+            // Aggiungiamo questa riga per sapere se è Autostradale o Urbano
+            tipoImpianto: imp['Tipo Impianto'] || "Urbano", 
+            // Normalizziamo i combustibili in minuscolo per farli coincidere con la App
+            precios: carburantesLimpios.map(p => ({
+                combustible: p.combustible.toLowerCase().trim(),
+                precio: p.precio
+            }))
         };
-    });
 
     fs.writeFileSync('gasolineras.json', JSON.stringify(resultadoFinal, null, 2));
     console.log(`¡Proceso completado! Guardadas ${resultadoFinal.length} gasolineras optimizadas en modo Self.`);
