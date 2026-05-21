@@ -39,39 +39,13 @@ function descargarCSV(url) {
     });
 }
 
-function calcularDistancia(lat1, lon1, lat2, lon2) {
-    const R = 6371;
-    const gLat = parseFloat(lat1.replace(',', '.'));
-    const gLon = parseFloat(lon1.replace(',', '.'));
-    if (isNaN(gLat) || isNaN(gLon)) return 99999; 
-    
-    const dLat = (lat2 - gLat) * Math.PI / 180;
-    const dLon = (lon2 - gLon) * Math.PI / 180;
-    const a = Math.sin(dLat/2)**2 + Math.cos(gLat*Math.PI/180) * Math.cos(lat2*Math.PI/180) * Math.sin(dLon/2)**2;
-    return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
-}
-
 async function procesar() {
-    console.log("Descargando y filtrando mejores precios 'Self'...");
+    console.log("Descargando y procesando todas las gasolineras...");
     const impianti = await descargarCSV(URL_IMPIANTI);
     const precios = await descargarCSV(URL_PRECIOS);
 
-    // Filtramos instalaciones por tu ruta configurada
-    let filtradas = impianti.filter(imp => {
-        if (!imp.Latitudine || !imp.Longitudine) return false;
-        
-        return CONFIGURACION_RUTA.rutaPuntos.some(p => 
-            calcularDistancia(imp.Latitudine, imp.Longitudine, p.lat, p.lon) <= CONFIGURACION_RUTA.radioKM
-        );
-    });
-
-    // MODO SEGURIDAD: Muestra temporal si la ruta da 0
-    if (filtradas.length === 0) {
-        console.log("Aviso: Tu ruta no cruzó con ninguna gasolinera. Guardando muestra de seguridad...");
-        filtradas = impianti.filter(imp => imp.Latitudine && imp.Longitudine).slice(0, 50);
-    }
-
-    const resultadoFinal = filtradas.map(imp => {
+    // Procesamos TODOS los impianti sin filtrar por distancia
+    const resultadoFinal = impianti.map(imp => {
         // 1. Buscamos los precios de esta estación y nos quedamos SOLO con los "isSelf === 1"
         const listaPreciosSelf = precios.filter(p => p.idImpianto === imp.idImpianto && p.isSelf === "1");
         
@@ -108,9 +82,10 @@ async function procesar() {
                 precio: p.precio
             }))
         };
-    }); // <--- AQUÍ SE CIERRA EL MAP DE FILTRADAS
+    });
 
     fs.writeFileSync('gasolineras.json', JSON.stringify(resultadoFinal, null, 2));
-    console.log(`¡Proceso completado! Guardadas ${resultadoFinal.length} gasolineras optimizadas en modo Self.`);
+    console.log(`¡Proceso completado! Guardadas ${resultadoFinal.length} gasolineras en total.`);
 }
+
 procesar();
