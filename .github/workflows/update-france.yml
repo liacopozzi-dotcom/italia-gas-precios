@@ -1,8 +1,9 @@
 name: Update France Gas Stations
 
 on:
-  schedule:
-    - cron: '0 6 * * *'   # Daily at 06:00 UTC (7h CET / 8h CEST)
+    schedule:
+    - cron: '30 6 * * *'  # 08:30 CEST (verano) / 07:30 CET (invierno)
+    - cron: '30 7 * * *'  # 09:30 CEST (verano) / 08:30 CET (invierno)
   workflow_dispatch:        # Manual trigger from GitHub UI
 
 jobs:
