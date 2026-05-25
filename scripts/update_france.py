@@ -1,4 +1,4 @@
-!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Downloads all French gas station data from the French government API
 and saves it as a compact JSON for AppViaje.
