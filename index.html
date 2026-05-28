@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>I Travel By Car — Privacy Policy</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px 16px; background: #fff; color: #222; }
+    h1 { color: #1a1a2e; border-bottom: 2px solid #2ecc71; padding-bottom: 10px; }
+    h2 { color: #1a1a2e; margin-top: 32px; }
+    h3 { color: #333; }
+    .lang-select { display: flex; gap: 10px; flex-wrap: wrap; margin: 16px 0 30px; }
+    .lang-btn { padding: 6px 14px; border: 1px solid #2ecc71; border-radius: 20px; cursor: pointer; background: #fff; color: #2ecc71; font-size: 14px; }
+    .lang-btn.active { background: #2ecc71; color: #fff; }
+    .section { display: none; }
+    .section.active { display: block; }
+    .disclaimer { background: #fff8e1; border-left: 4px solid #f39c12; padding: 12px 16px; margin: 16px 0; border-radius: 4px; }
+    footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid #eee; color: #888; font-size: 13px; }
+    a { color: #2980b9; }
+  </style>
+</head>
+<body>
+
+<h1>🚗 I Travel By Car</h1>
+<p><strong>Privacy Policy &amp; Terms of Use</strong> — v1.0 — 2026-05-28</p>
+
+<div class="lang-select">
+  <button class="lang-btn active" onclick="showLang('en')">🇬🇧 English</button>
+  <button class="lang-btn" onclick="showLang('es')">🇪🇸 Español</button>
+  <button class="lang-btn" onclick="showLang('it')">🇮🇹 Italiano</button>
+  <button class="lang-btn" onclick="showLang('fr')">🇫🇷 Français</button>
+  <button class="lang-btn" onclick="showLang('de')">🇩🇪 Deutsch</button>
+  <button class="lang-btn" onclick="showLang('pt')">🇵🇹 Português</button>
+</div>
+
+<!-- ENGLISH -->
+<div id="lang-en" class="section active">
+  <h2>Privacy Policy</h2>
+  <p>Last updated: 28 May 2026. Developer: Luigi Iacopozzi — <a href="mailto:liacopozzi@gmail.com">liacopozzi@gmail.com</a></p>
+
+  <h3>1. Data We Collect</h3>
+  <ul>
+    <li><strong>Account data:</strong> email address (Firebase Authentication, only if you create an account)</li>
+    <li><strong>Vehicle data:</strong> fuel type, tank capacity, consumption, autonomy (stored in Firebase Firestore)</li>
+    <li><strong>Refueling history:</strong> date, liters, price per liter, odometer reading, station name</li>
+    <li><strong>Trip history:</strong> GPS coordinates, distance, start/end time</li>
+    <li><strong>Preferences:</strong> language, route settings — stored locally on your device (AsyncStorage)</li>
+  </ul>
+
+  <h3>2. How We Use Your Data</h3>
+  <ul>
+    <li>To provide fuel price comparison along your route</li>
+    <li>To calculate when and where to refuel based on your vehicle profile</li>
+    <li>To store your refueling and trip history in the cloud (if logged in)</li>
+    <li>We do not sell, share, or monetise your personal data</li>
+  </ul>
+
+  <h3>3. Third-Party Services</h3>
+  <ul>
+    <li><strong>Firebase (Google LLC):</strong> authentication and cloud data storage — <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy Policy</a></li>
+    <li><strong>Google Maps Platform:</strong> route calculation and map display — <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></li>
+    <li><strong>Nominatim / OpenStreetMap:</strong> reverse geocoding (region detection) — no personal data transmitted</li>
+    <li><strong>Fuel price APIs:</strong> MINETUR (Spain), data.economie.gouv.fr (France), public sources (Italy/Austria/Germany/Belgium) — no personal data transmitted</li>
+  </ul>
+
+  <h3>4. Data Retention</h3>
+  <p>Your data is retained until you delete your account or uninstall the app. You can delete your account and all associated data at any time from the Mi Perfil screen.</p>
+
+  <h3>5. Your Rights (GDPR)</h3>
+  <p>If you are located in the European Union, you have the right to: access, rectify, erase, restrict processing, and port your data. Contact: <a href="mailto:liacopozzi@gmail.com">liacopozzi@gmail.com</a></p>
+
+  <h3>6. Children</h3>
+  <p>This app is not directed at children under 13. We do not knowingly collect data from minors.</p>
+
+  <h2>Terms of Use &amp; Disclaimer</h2>
+
+  <div class="disclaimer">
+    <strong>⚠️ Price Accuracy Disclaimer:</strong> Fuel prices displayed are sourced from official public APIs and may not reflect real-time prices at the pump. Prices are for guidance only. The developer accepts no liability for any difference between displayed and actual prices.
+  </div>
+
+  <div class="disclaimer">
+    <strong>⚠️ Navigation Disclaimer:</strong> I Travel By Car is a planning tool and does not replace official road signage, GPS navigation systems, or driver judgment. The developer accepts no liability for decisions made based on the app's suggestions.
+  </div>
+
+  <h3>Limitation of Liability</h3>
+  <p>The app is provided "as is". The developer shall not be liable for any direct, indirect, or consequential damages arising from the use or inability to use the app, including but not limited to fuel cost differences, detours, or navigation errors.</p>
+
+  <h3>Governing Law</h3>
+  <p>These terms are governed by the laws of Italy. Any disputes shall be subject to the exclusive jurisdiction of the courts of Italy.</p>
+</div>
+
+<!-- ESPAÑOL -->
+<div id="lang-es" class="section">
+  <h2>Política de Privacidad</h2>
+  <p>Última actualización: 28 de mayo de 2026. Desarrollador: Luigi Iacopozzi — <a href="mailto:liacopozzi@gmail.com">liacopozzi@gmail.com</a></p>
+
+  <h3>1. Datos que recopilamos</h3>
+  <ul>
+    <li><strong>Datos de cuenta:</strong> dirección de correo electrónico (Firebase Auth, solo si creas una cuenta)</li>
+    <li><strong>Datos del vehículo:</strong> tipo de combustible, capacidad del depósito, consumo, autonomía</li>
+    <li><strong>Historial de repostajes:</strong> fecha, litros, precio por litro, km, nombre de la estación</li>
+    <li><strong>Historial de viajes:</strong> coordenadas GPS, distancia, hora de inicio/fin</li>
+    <li><strong>Preferencias:</strong> idioma y configuración de ruta — almacenados localmente en tu dispositivo</li>
+  </ul>
+
+  <h3>2. Uso de los datos</h3>
+  <ul>
+    <li>Para comparar precios de combustible en tu ruta</li>
+    <li>Para calcular cuándo y dónde repostar según tu perfil de vehículo</li>
+    <li>Para guardar tu historial en la nube (si estás conectado)</li>
+    <li>No vendemos ni compartimos tus datos personales con terceros</li>
+  </ul>
+
+  <h3>3. Servicios de terceros</h3>
+  <ul>
+    <li><strong>Firebase (Google LLC):</strong> autenticación y almacenamiento en la nube</li>
+    <li><strong>Google Maps Platform:</strong> cálculo de rutas y visualización de mapas</li>
+    <li><strong>Nominatim / OpenStreetMap:</strong> geocodificación inversa — sin datos personales</li>
+    <li><strong>APIs de precios:</strong> MINETUR (España), data.economie.gouv.fr (Francia), fuentes públicas — sin datos personales</li>
+  </ul>
+
+  <h3>4. Tus derechos (RGPD)</h3>
+  <p>Tienes derecho a acceder, rectificar, suprimir y portar tus datos. Contacto: <a href="mailto:liacopozzi@gmail.com">liacopozzi@gmail.com</a></p>
+
+  <h2>Términos de Uso y Descargo de Responsabilidad</h2>
+
+  <div class="disclaimer">
+    <strong>⚠️ Aviso sobre precios:</strong> Los precios mostrados provienen de APIs públicas oficiales y pueden no reflejar el precio real en el surtidor. Son orientativos. El desarrollador no acepta responsabilidad por diferencias entre el precio mostrado y el precio real.
+  </div>
+  <div class="disclaimer">
+    <strong>⚠️ Aviso de navegación:</strong> La app es una herramienta de planificación y no sustituye a la señalización vial oficial ni al criterio del conductor. El desarrollador no se responsabiliza de las decisiones tomadas en base a las sugerencias de la app.
+  </div>
+</div>
+
+<!-- ITALIANO -->
+<div id="lang-it" class="section">
+  <h2>Informativa sulla Privacy</h2>
+  <p>Ultimo aggiornamento: 28 maggio 2026. Sviluppatore: Luigi Iacopozzi — <a href="mailto:liacopozzi@gmail.com">liacopozzi@gmail.com</a></p>
+
+  <h3>1. Dati che raccogliamo</h3>
+  <ul>
+    <li><strong>Dati account:</strong> indirizzo email (Firebase Auth, solo se si crea un account)</li>
+    <li><strong>Dati veicolo:</strong> tipo carburante, capacità serbatoio, consumo, autonomia</li>
+    <li><strong>Cronologia rifornimenti:</strong> data, litri, prezzo al litro, km, nome della stazione</li>
+    <li><strong>Cronologia viaggi:</strong> coordinate GPS, distanza, ora inizio/fine</li>
+    <li><strong>Preferenze:</strong> lingua e impostazioni percorso — salvate localmente sul dispositivo</li>
+  </ul>
+
+  <h3>2. Utilizzo dei dati</h3>
+  <ul>
+    <li>Per confrontare i prezzi del carburante sul percorso</li>
+    <li>Per calcolare quando e dove rifornirsi in base al profilo del veicolo</li>
+    <li>Per salvare la cronologia nel cloud (se connessi)</li>
+    <li>Non vendiamo né condividiamo i tuoi dati personali</li>
+  </ul>
+
+  <h3>3. Servizi di terze parti</h3>
+  <ul>
+    <li><strong>Firebase (Google LLC):</strong> autenticazione e archiviazione cloud</li>
+    <li><strong>Google Maps Platform:</strong> calcolo percorsi e visualizzazione mappe</li>
+    <li><strong>Nominatim / OpenStreetMap:</strong> geocodifica inversa — nessun dato personale trasmesso</li>
+    <li><strong>API prezzi carburante:</strong> fonti pubbliche ufficiali — nessun dato personale trasmesso</li>
+  </ul>
+
+  <h3>4. I tuoi diritti (GDPR)</h3>
+  <p>Hai diritto di accedere, rettificare, cancellare e portare i tuoi dati. Contatto: <a href="mailto:liacopozzi@gmail.com">liacopozzi@gmail.com</a></p>
+
+  <h2>Termini di Utilizzo e Limitazione di Responsabilità</h2>
+
+  <div class="disclaimer">
+    <strong>⚠️ Avviso prezzi:</strong> I prezzi visualizzati provengono da API pubbliche ufficiali e potrebbero non riflettere il prezzo reale al distributore. Sono puramente indicativi. Lo sviluppatore non è responsabile per eventuali differenze tra il prezzo visualizzato e quello reale.
+  </div>
+  <div class="disclaimer">
+    <strong>⚠️ Avviso navigazione:</strong> L'app è uno strumento di pianificazione e non sostituisce la segnaletica stradale ufficiale né il giudizio del conducente.
+  </div>
+</div>
+
+<!-- FRANÇAIS -->
+<div id="lang-fr" class="section">
+  <h2>Politique de Confidentialité</h2>
+  <p>Dernière mise à jour : 28 mai 2026. Développeur : Luigi Iacopozzi — <a href="mailto:liacopozzi@gmail.com">liacopozzi@gmail.com</a></p>
+  <h3>1. Données collectées</h3>
+  <ul>
+    <li><strong>Compte :</strong> adresse e-mail (Firebase Auth, uniquement si vous créez un compte)</li>
+    <li><strong>Véhicule :</strong> type de carburant, capacité du réservoir, consommation, autonomie</li>
+    <li><strong>Historique plein :</strong> date, litres, prix au litre, km, nom de la station</li>
+    <li><strong>Historique trajets :</strong> coordonnées GPS, distance, heure début/fin</li>
+  </ul>
+  <div class="disclaimer">
+    <strong>⚠️ Avertissement prix :</strong> Les prix affichés proviennent d'API publiques officielles et peuvent ne pas refléter le prix réel à la pompe. Ils sont fournis à titre indicatif uniquement.
+  </div>
+</div>
+
+<!-- DEUTSCH -->
+<div id="lang-de" class="section">
+  <h2>Datenschutzerklärung</h2>
+  <p>Letzte Aktualisierung: 28. Mai 2026. Entwickler: Luigi Iacopozzi — <a href="mailto:liacopozzi@gmail.com">liacopozzi@gmail.com</a></p>
+  <h3>1. Erfasste Daten</h3>
+  <ul>
+    <li><strong>Konto:</strong> E-Mail-Adresse (Firebase Auth, nur bei Kontoerstellung)</li>
+    <li><strong>Fahrzeug:</strong> Kraftstoffart, Tankinhalt, Verbrauch, Reichweite</li>
+    <li><strong>Tankhistorie:</strong> Datum, Liter, Preis/Liter, km, Stationsname</li>
+    <li><strong>Reiseverlauf:</strong> GPS-Koordinaten, Distanz, Start-/Endzeit</li>
+  </ul>
+  <div class="disclaimer">
+    <strong>⚠️ Preishinweis:</strong> Die angezeigten Kraftstoffpreise stammen aus öffentlichen APIs und spiegeln möglicherweise nicht den tatsächlichen Preis an der Zapfsäule wider. Sie dienen nur zur Orientierung.
+  </div>
+</div>
+
+<!-- PORTUGUÊS -->
+<div id="lang-pt" class="section">
+  <h2>Política de Privacidade</h2>
+  <p>Última atualização: 28 de maio de 2026. Desenvolvedor: Luigi Iacopozzi — <a href="mailto:liacopozzi@gmail.com">liacopozzi@gmail.com</a></p>
+  <h3>1. Dados recolhidos</h3>
+  <ul>
+    <li><strong>Conta:</strong> endereço de e-mail (Firebase Auth, apenas se criar conta)</li>
+    <li><strong>Veículo:</strong> tipo de combustível, capacidade do depósito, consumo, autonomia</li>
+    <li><strong>Histórico abastecimento:</strong> data, litros, preço/litro, km, nome do posto</li>
+    <li><strong>Histórico viagens:</strong> coordenadas GPS, distância, hora início/fim</li>
+  </ul>
+  <div class="disclaimer">
+    <strong>⚠️ Aviso preços:</strong> Os preços exibidos provêm de APIs públicas oficiais e podem não refletir o preço real na bomba. São meramente indicativos.
+  </div>
+</div>
+
+<footer>
+  <p>© 2026 Luigi Iacopozzi · <a href="mailto:liacopozzi@gmail.com">liacopozzi@gmail.com</a> · I Travel By Car</p>
+  <p>Package: com.brigi1958.itravel</p>
+</footer>
+
+<script>
+  function showLang(lang) {
+    document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+    document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+    document.getElementById('lang-' + lang).classList.add('active');
+    event.target.classList.add('active');
+  }
+</script>
+</body>
+</html>
