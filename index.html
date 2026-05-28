@@ -17,6 +17,19 @@
     .disclaimer { background: #fff8e1; border-left: 4px solid #f39c12; padding: 12px 16px; margin: 16px 0; border-radius: 4px; }
     footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid #eee; color: #888; font-size: 13px; }
     a { color: #2980b9; }
+    .senyera {
+  display: inline-block;
+  width: 18px;
+  height: 12px;
+  border-radius: 2px;
+  background: repeating-linear-gradient(
+    to bottom,
+    #FCDD09 0px, #FCDD09 1.33px,
+    #DA121A 1.33px, #DA121A 2.66px
+  );
+  vertical-align: middle;
+  margin-left: 4px;
+}
   </style>
 </head>
 <body>
@@ -25,12 +38,13 @@
 <p><strong>Privacy Policy &amp; Terms of Use</strong> — v1.0 — 2026-05-28</p>
 
 <div class="lang-select">
-  <button class="lang-btn active" onclick="showLang('en')">🇬🇧 English</button>
-  <button class="lang-btn" onclick="showLang('es')">🇪🇸 Español</button>
-  <button class="lang-btn" onclick="showLang('it')">🇮🇹 Italiano</button>
-  <button class="lang-btn" onclick="showLang('fr')">🇫🇷 Français</button>
-  <button class="lang-btn" onclick="showLang('de')">🇩🇪 Deutsch</button>
-  <button class="lang-btn" onclick="showLang('pt')">🇵🇹 Português</button>
+  <button class="lang-btn active" onclick="showLang('en', this)">🇬🇧 English</button>
+<button class="lang-btn" onclick="showLang('ca', this)">CAT <span class="senyera"></span></button>
+<button class="lang-btn" onclick="showLang('es', this)">🇪🇸 Español</button>
+<button class="lang-btn" onclick="showLang('it', this)">🇮🇹 Italiano</button>
+<button class="lang-btn" onclick="showLang('fr', this)">🇫🇷 Français</button>
+<button class="lang-btn" onclick="showLang('de', this)">🇩🇪 Deutsch</button>
+<button class="lang-btn" onclick="showLang('pt', this)">🇵🇹 Português</button>
 </div>
 
 <!-- ENGLISH -->
@@ -273,6 +287,52 @@
   <p>Die App wird „wie besehen" bereitgestellt. Der Entwickler haftet nicht für direkte, indirekte oder Folgeschäden, die sich aus der Nutzung oder Nichtnutzbarkeit der App ergeben.</p>
 </div>
 
+  <!-- CATALAN -->
+  <div id="lang-ca" class="section">
+  <h2>Política de Privadesa</h2>
+  <p>Darrera actualització: 28 de maig de 2026. Desenvolupador: Luigi Iacopozzi — <a href="mailto:liacopozzi@gmail.com">liacopozzi@gmail.com</a></p>
+
+  <h3>1. Dades que recollim</h3>
+  <ul>
+    <li><strong>Compte:</strong> adreça de correu electrònic (Firebase Auth, només si creeu un compte)</li>
+    <li><strong>Vehicle:</strong> tipus de combustible, capacitat del dipòsit, consum, autonomia</li>
+    <li><strong>Historial de repostatges:</strong> data, litres, preu/litre, km, nom de l'estació</li>
+    <li><strong>Historial de viatges:</strong> coordenades GPS, distància, hora d'inici/fi</li>
+    <li><strong>Preferències:</strong> idioma i configuració de ruta — guardades localment al dispositiu</li>
+  </ul>
+
+  <h3>2. Ús de les dades</h3>
+  <ul>
+    <li>Per comparar preus de combustible a la vostra ruta</li>
+    <li>Per calcular quan i on repostar segons el vostre perfil de vehicle</li>
+    <li>Per guardar el vostre historial al núvol (si esteu connectats)</li>
+    <li>No venem ni compartim les vostres dades personals amb tercers</li>
+  </ul>
+
+  <h3>3. Serveis de tercers</h3>
+  <ul>
+    <li><strong>Firebase (Google LLC):</strong> autenticació i emmagatzematge al núvol</li>
+    <li><strong>Google Maps Platform:</strong> càlcul de rutes i visualització de mapes</li>
+    <li><strong>Nominatim / OpenStreetMap:</strong> geocodificació inversa — cap dada personal transmesa</li>
+    <li><strong>APIs de preus:</strong> MINETUR (Espanya), data.economie.gouv.fr (França), fonts públiques — cap dada personal</li>
+  </ul>
+
+  <h3>4. Els vostres drets (RGPD)</h3>
+  <p>Teniu dret a accedir, rectificar, suprimir i portar les vostres dades. Contacte: <a href="mailto:liacopozzi@gmail.com">liacopozzi@gmail.com</a></p>
+
+  <h2>Condicions d'Ús i Limitació de Responsabilitat</h2>
+
+  <div class="disclaimer">
+    <strong>⚠️ Avís sobre preus:</strong> Els preus mostrats provenen d'APIs públiques oficials i poden no reflectir el preu real al surtidor. Són orientatius. El desenvolupador no accepta responsabilitat per diferències entre el preu mostrat i el real.
+  </div>
+  <div class="disclaimer">
+    <strong>⚠️ Avís de navegació:</strong> L'app és una eina de planificació i no substitueix la senyalització viària oficial ni el criteri del conductor. El desenvolupador no es responsabilitza de les decisions preses en base a les suggerències de l'app.
+  </div>
+
+  <h3>Llei aplicable</h3>
+  <p>Aquestes condicions es regeixen per la legislació italiana vigent.</p>
+</div>
+
 <!-- PORTUGUÊS -->
 <div id="lang-pt" class="section">
   <h2>Política de Privacidade</h2>
@@ -328,12 +388,12 @@
 </footer>
 
 <script>
-  function showLang(lang) {
-    document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
-    document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
-    document.getElementById('lang-' + lang).classList.add('active');
-    event.target.classList.add('active');
-  }
+  function showLang(lang, btn) {
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('lang-' + lang).classList.add('active');
+  btn.classList.add('active');
+}
 </script>
 </body>
 </html>
