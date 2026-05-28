@@ -1,6 +1,5 @@
 const fs = require('fs');
 const https = require('https');
-const { CONFIGURACION_RUTA } = require('./autopistasItalia.js');
 
 const URL_IMPIANTI = 'https://www.mimit.gov.it/images/exportCSV/anagrafica_impianti_attivi.csv';
 const URL_PRECIOS = 'https://www.mimit.gov.it/images/exportCSV/prezzo_alle_8.csv';
