@@ -1,8 +1,10 @@
 name: Actualizar Precios
 on:
   schedule:
-    - cron: '30 6 * * *'
-    - cron: '30 7 * * *'
+  - cron: '30 0 * * *'
+  - cron: '30 6 * * *'
+  - cron: '30 12 * * *'
+  - cron: '30 18 * * *'
   workflow_dispatch:
 
 jobs:
